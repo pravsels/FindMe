@@ -1,0 +1,11 @@
+requests>=2.31
+beautifulsoup4>=4.12
+Pillow>=10.0
+numpy>=1.24
+opencv-python>=4.8
+insightface>=0.7
+onnxruntime>=1.16
+
+# If you have an NVIDIA GPU and want acceleration, replace onnxruntime with:
+# onnxruntime-gpu>=1.16
+
