@@ -3,7 +3,7 @@
 
 Find if your face has been posted to a Subreddit. Only searches the latest 50 posts. 
 
-<img width="500" height="480" alt="Screenshot 2025-08-15 at 16 27 15" src="https://github.com/user-attachments/assets/8c2983c6-64aa-4066-8115-c4d2de8111f4" />
+<img width="500" height="500" alt="Screenshot 2025-08-15 at 16 37 54" src="https://github.com/user-attachments/assets/31337e9f-fbfb-455b-a419-1c79d8fd4a7e" />
 
 ## Setup
 
