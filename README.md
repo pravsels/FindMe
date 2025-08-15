@@ -3,6 +3,8 @@
 
 Find if your face has been posted to a Subreddit. Only searches the latest 50 posts. 
 
+<img width="1179" height="983" alt="Screenshot 2025-08-15 at 16 27 15" src="https://github.com/user-attachments/assets/8c2983c6-64aa-4066-8115-c4d2de8111f4" />
+
 ## Setup
 
 Create a conda env
