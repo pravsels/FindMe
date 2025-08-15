@@ -8,19 +8,17 @@ Find if your face has been posted to a Subreddit. Only searches the latest 50 po
 ## Setup
 
 Create a conda env
-
 ```
 conda create -n findme python=3.10 -y
 conda activate findme
 ```
 
 Install requirements
-
 ```
 pip install -r requirements.txt
 ```
 
-Create a file named .env and add Reddit creds:
+Create a `.env` file and add Reddit creds
 ```
 REDDIT_CLIENT_ID=your_client_id
 REDDIT_CLIENT_SECRET=your_client_secret
