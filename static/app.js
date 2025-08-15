@@ -42,11 +42,12 @@
       img.className = 'face';
       img.src = c.thumb;
       img.alt = 'Candidate face';
-  
+      
+      const pctVal = Math.round(c.score_pct ?? 0);
       const bar = document.createElement('div');
       bar.className = 'bar';
       const fill = document.createElement('span');
-      fill.style.background = hueColor(c.score_pct ?? 0);
+      fill.style.background = hueColor(pctVal);
       bar.appendChild(fill);
   
       const pct = document.createElement('div');
@@ -54,7 +55,7 @@
       pct.style.fontWeight = '800';
       pct.style.fontSize = '12px';
       pct.style.marginTop = '6px';
-      pct.textContent = `${Math.round(c.score_pct ?? 0)}%`;
+      pct.textContent = `${pctVal}%`;
   
       const title = document.createElement('div');
       title.className = 'title';
@@ -83,7 +84,7 @@
       card.appendChild(middle);
   
       // animate bar fill after layout
-      requestAnimationFrame(() => { fill.style.width = '100%'; });
+      requestAnimationFrame(() => { fill.style.width = `${pctVal}%`; });
   
       insertSorted(card, raw);
     }
