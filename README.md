@@ -1,7 +1,7 @@
 
 # Find Me
 
-Find if your face has been posted to a Subreddit. Only searches the latest 50 posts so far. 
+Find out if your face has been posted to a Subreddit. Only searches the latest 50 posts so far. 
 
 <img width="500" height="500" alt="Screenshot 2025-08-15 at 16 37 54" src="https://github.com/user-attachments/assets/31337e9f-fbfb-455b-a419-1c79d8fd4a7e" />
 
