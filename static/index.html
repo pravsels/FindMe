@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Find Me!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/style.css">
+  <script defer src="/static/app.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Find Me!</h1>
+
+    <!-- Upload & face preview -->
+    <div class="panel">
+      <label class="drop" id="drop">
+        <input id="file" type="file" accept="image/*" />
+        <div>
+          <div style="font-weight:700">Drop your photo here</div>
+          <div class="hint">or click to choose an image</div>
+        </div>
+      </label>
+
+      <div class="preview hidden" id="preview">
+        <img id="facePreview" class="face" alt="Face preview" />
+        <div class="muted">Looks good. We’ll search for this face.</div>
+      </div>
+
+      <div class="row" style="margin-top:12px;">
+        <div class="controls" style="flex:1">
+          <input id="forum" type="url" placeholder="https://www.reddit.com/r/pics/" />
+          <button id="searchBtn" disabled>Search</button>
+          <button id="cancelBtn" class="danger" disabled>Cancel</button>
+        </div>
+      </div>
+
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <!-- Results -->
+    <div class="panel" style="margin-top:16px;">
+      <div class="muted" id="resultsHeader">Possible matches will appear here…</div>
+      <div class="results" id="results"></div>
+    </div>
+  </div>
+</body>
+</html>
